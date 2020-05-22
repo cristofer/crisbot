@@ -1,7 +1,7 @@
 module Lita
   module Handlers
     class Hello < Handler
-      # insert handler code here
+      route /^hi/, :greeting
 
       Lita.register_handler(self)
     end
