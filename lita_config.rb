@@ -34,7 +34,7 @@ Lita.configure do |config|
   config.robot.adapter = :slack
   # config.robot.admins = ["U012A3BCD"]
 
-  config.adapters.slack.token = "XOXO"
+  config.adapters.slack.token = "abcd-1234567890-hWYd21AmMH2UHAkx29vb5c1Y"
 
   # config.adapters.slack.link_names = true
   # config.adapters.slack.parse = "full"

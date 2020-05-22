@@ -6,6 +6,8 @@ A very simple chatbot that will answer "hello there!" when a "hi" is send
 
 ```
 bundle install
+cd lita-hello
+bundle install
 ```
 
 ## Configuration
@@ -27,11 +29,17 @@ bundle exec lita
 
 ### Without Slack:
 
+Uncommet `lita_config.rb:20` so it runs in a shell,
+and comment out `lita_config.rb:34` for slack adapter.
+
 ```
 hi
 ```
 
 ### With Slack
+
+Comment out `lita_config.rb:20`,
+and uncomment `lita_config.rb:34`.
 
 Go to your Slack,
 start a conversation with the name you gave to your bot,
