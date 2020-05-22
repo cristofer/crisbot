@@ -17,7 +17,7 @@ Lita.configure do |config|
 
   # The adapter you want to connect with. Make sure you've added the
   # appropriate gem to the Gemfile.
-  config.robot.adapter = :shell
+  # config.robot.adapter = :shell
 
   ## Example: Set options for the chosen adapter.
   # config.adapter.username = "myname"
@@ -30,4 +30,14 @@ Lita.configure do |config|
   ## Example: Set configuration for any loaded handlers. See the handler's
   ## documentation for options.
   # config.handlers.some_handler.some_config_key = "value"
+
+  config.robot.adapter = :slack
+  # config.robot.admins = ["U012A3BCD"]
+
+  config.adapters.slack.token = "XOXO"
+
+  # config.adapters.slack.link_names = true
+  # config.adapters.slack.parse = "full"
+  # config.adapters.slack.unfurl_links = false
+  # config.adapters.slack.unfurl_media = false
 end
