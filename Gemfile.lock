@@ -1,3 +1,9 @@
+PATH
+  remote: lita-hello
+  specs:
+    lita-hello (0.1.0)
+      lita (>= 4.7)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -41,6 +47,7 @@ PLATFORMS
 
 DEPENDENCIES
   lita
+  lita-hello!
 
 BUNDLED WITH
    2.1.4
