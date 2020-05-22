@@ -1,7 +1,7 @@
 module Lita
   module Handlers
     class Hello < Handler
-      route /(^.*?)/, :unknown
+      route /^(?!hi)/, :unknown
       route /^hi/, :greeting
 
       def greeting(response)
